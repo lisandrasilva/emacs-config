@@ -167,7 +167,11 @@
 ;; * Neotree
 ;;
 (global-set-key [f9] 'neotree-toggle)
+(global-set-key "\M-(" (lambda () (interactive) (insert "{")))
+(global-set-key "\M-)" (lambda () (interactive) (insert "}")))
 
+(global-set-key "\M-8" (lambda () (interactive) (insert "[")))
+(global-set-key "\M-9" (lambda () (interactive) (insert "]")))
 ;; * Mybuffers
 ;;
 (global-set-key (kbd "<C-tab>") 'mybuffers-switch)

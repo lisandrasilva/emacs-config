@@ -15,7 +15,6 @@
  '(ac-ignore-case nil)
  '(ac-trigger-key "TAB")
  '(ac-use-comphist t)
- '(agda2-fontset-name "DejaVu Sans Mono 13")
  '(agda2-program-args nil)
  '(agda2-program-name "agda")
  '(column-number-mode t)
